@@ -33,7 +33,9 @@ int main(void)
 
     // Initialize the Trill object
     int i2cBus = 1; // only 1 and 4 are properly mapped to pins on the Seed
-    trill.setup(i2cBus, Trill::BAR);
+    int ret = trill.setup(i2cBus, Trill::BAR);
+    if(ret)
+        hw.Print("trill.setup() returned %d\n", ret);
     
     // loop forever
     while(1)
