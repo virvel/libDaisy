@@ -215,6 +215,7 @@ target_include_directories(${TARGET} PUBLIC
     src/sys
     src/usbd
     src/usbh
+    src/dev
     )
 
 set_target_properties(${TARGET} PROPERTIES
