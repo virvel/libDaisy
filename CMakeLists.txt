@@ -40,8 +40,8 @@ add_library(${TARGET} STATIC
     ${MODULE_DIR}/dev/codec_pcm3060.cpp
     ${MODULE_DIR}/dev/codec_wm8731.cpp
     ${MODULE_DIR}/dev/lcd_hd44780.cpp
-    ${MODULE_DIR}/dev/trill/Trill.cpp
-    ${MODULE_DIR}/dev/trill/CentroidDetection.cpp
+    ${MODULE_DIR}/dev/Trill.cpp
+    ${MODULE_DIR}/dev/CentroidDetection.cpp
     ${MODULE_DIR}/hid/ctrl.cpp
     ${MODULE_DIR}/hid/encoder.cpp
     ${MODULE_DIR}/hid/gatein.cpp
