@@ -55,8 +55,8 @@ add_library(daisy STATIC
     ${MODULE_DIR}/dev/sdram.cpp
     ${MODULE_DIR}/dev/sr_595.cpp
     ${MODULE_DIR}/hid/audio.cpp
-    ${MODULE_DIR}/dev/trill/Trill.cpp
-    ${MODULE_DIR}/dev/trill/CentroidDetection.cpp
+    ${MODULE_DIR}/dev/Trill.cpp
+    ${MODULE_DIR}/dev/CentroidDetection.cpp
     ${MODULE_DIR}/hid/ctrl.cpp
     ${MODULE_DIR}/hid/encoder.cpp
     ${MODULE_DIR}/hid/gatein.cpp
