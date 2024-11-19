@@ -47,7 +47,7 @@ var NAVTREE =
       [ "Hello World", "md_doc_2md_2__a2___getting-_started-_serial-_printing.html#autotoc_md14", null ],
       [ "String Formatting", "md_doc_2md_2__a2___getting-_started-_serial-_printing.html#autotoc_md15", null ],
       [ "Floating Point Numbers", "md_doc_2md_2__a2___getting-_started-_serial-_printing.html#autotoc_md16", [
-        [ "Using %f specifier", "md_doc_2md_2__a2___getting-_started-_serial-_printing.html#autotoc_md17", null ],
+        [ "Using f specifier", "md_doc_2md_2__a2___getting-_started-_serial-_printing.html#autotoc_md17", null ],
         [ "Using FLT_FMT and FLT_VAR macros", "md_doc_2md_2__a2___getting-_started-_serial-_printing.html#autotoc_md18", null ],
         [ "Using FixedCapStr class", "md_doc_2md_2__a2___getting-_started-_serial-_printing.html#autotoc_md19", null ]
       ] ],
@@ -144,6 +144,8 @@ var NAVTREE =
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
@@ -153,13 +155,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_abstract_menu_8h.html",
-"class_usb_handle.html#a782f2982a91520188f2be5a80c9febb4a26ab786f68f31edaf520641878d210b4",
-"classdaisy_1_1_mapped_value.html#a6170374297209fc14bbc7865438b71a8",
-"classdaisy_1_1_timer_handle.html#aa22a2290d5fb0cc957dc5b06ce21789b",
-"dps310_8h.html#af0d62aa1d041109b3d762e8e5b50749b",
-"hierarchy.html",
-"neopixel_8h.html#a7b6b551a990b498bed36aadba4a498d5",
-"structdaisy_1_1_sai_handle_1_1_config.html#a68789209ff997e6ca653db010594959ba4afc2d6496e42b44dbf0f14420f3c021"
+"class_usb_handle.html#a782f2982a91520188f2be5a80c9febb4a7926eaf0841374d9b4afa7965a75127b",
+"classdaisy_1_1_one_bit_graphics_display.html#a7fa0b22cf59787a5685ead819c42d44f",
+"classdaisy_1_1_wm8731.html#ab71d3f1b08fd45a9d940a2d1a3a4c388",
+"functions_eval_r.html",
+"max11300_8h.html#aa5a2b717c98a118def838b1d7515daffa40be8bbbd3405ccfe268c143a86f989b",
+"spi_multislave_8h_source.html",
+"wav__format_8h.html#ac4aa183da4cc8c253afebd7ae0713f81a563fb05a62d62e03a6821f7e80c69997"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
