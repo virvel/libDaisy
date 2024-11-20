@@ -120,9 +120,6 @@ target_link_libraries(daisy PUBLIC
 target_compile_options(daisy PRIVATE
     -Wall
 
-    # At same point this generator should be removed, but the clang build isn't there yet
-    $<$<CXX_COMPILER_ID:GNU>:-Werror>
-
     # These are explicitly for startup_stm32h750xx.c
     $<$<CXX_COMPILER_ID:GNU>:-Wno-attributes>
     $<$<CXX_COMPILER_ID:GNU>:-Wno-missing-attributes>
