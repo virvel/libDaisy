@@ -106,20 +106,6 @@ add_library(daisy STATIC
 
 target_include_directories(daisy PUBLIC
     ${MODULE_DIR}
-    Drivers/CMSIS/Include
-    Drivers/CMSIS/Device/ST/STM32H7xx/Include
-    Drivers/STM32H7xx_HAL_Driver/Inc
-    Drivers/STM32H7xx_HAL_Driver/Inc/Legacy
-    Middlewares/ST/STM32_USB_Device_Library/Core/Inc
-    Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
-    Middlewares/ST/STM32_USB_Host_Library/Core/Inc
-    Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc
-    Middlewares/Third_Party/FatFs/src
-    src
-    src/sys
-    src/usbd
-    src/usbh
-    src/dev
     )
 
 target_link_libraries(daisy PUBLIC
